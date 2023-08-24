@@ -11,3 +11,5 @@ else:
     p = PosixPath(getcwd()) / "src"
 
 path.append(str(p))
+
+from funcclasses.__about__ import __version__  # noqa: E402

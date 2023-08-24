@@ -23,6 +23,13 @@ classifiers = [
 ]
 dependencies = []
 
+[project.optional-dependencies]
+test = [
+  "coverage[toml]",
+  "pytest",
+  "pytest-cov"
+]
+
 [project.urls]
 Documentation = "https://github.com/joshua-auchincloss/funcclasses#readme"
 Issues = "https://github.com/joshua-auchincloss/funcclasses/issues"
