@@ -1,0 +1,17 @@
+version: "3"
+
+tasks:
+  cov:
+    cmds:
+      - scripts/cov.sh
+
+  missed:
+    cmds:
+      - python3 -m http.server -d ./cover
+
+
+  lint:
+    cmds:
+      - isort ./src
+      - black ./src
+      - ruff ./src --fix
