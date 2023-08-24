@@ -27,7 +27,8 @@ dependencies = []
 test = [
   "coverage[toml]",
   "pytest",
-  "pytest-cov"
+  "pytest-cov",
+  "beartype"
 ]
 
 [project.urls]
