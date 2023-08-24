@@ -2,7 +2,7 @@
 
 [![PyPI - Version](https://img.shields.io/pypi/v/funcclasses.svg)](https://pypi.org/project/funcclasses)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/funcclasses.svg)](https://pypi.org/project/funcclasses)
-[![Code Coverage](https://img.shields.io/codecov/c/github/joshua-auchincloss/spic?style=flat-square)](https://app.codecov.io/github/joshua-auchincloss/funcclasses)
+[![codecov](https://codecov.io/github/joshua-auchincloss/funcclasses/graph/badge.svg?token=MBNC3KEMVM)](https://codecov.io/github/joshua-auchincloss/funcclasses)
 
 ---
 
